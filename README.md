@@ -66,6 +66,36 @@ public class Main {
 ## Output
 The output of the above example will display the elements of the Binary Search Tree in sorted order after removing the node with data 1 and will print whether the data 10 is present in the tree or not.
 
+## Simulation tree
+
+```text
+          5 (root)
+         / \
+        /   \
+       /     \
+      1       9
+       \       \
+        2       7
+         \     / \
+          3   6   8
+           \
+            4
+```
+## Time and Space Complexity Analysis
+
+The following table provides a summary of the time and space complexities (Big O notation) for each operation of the Binary Search Tree:
+
+| Operation                | Time Complexity        | Space Complexity  |
+|--------------------------|------------------------|-------------------|
+| Insertion                | O(log n)               | O(log n)          |
+| Deletion                 | O(log n)               | O(log n)          |
+| Searching                | O(log n)               | O(log n)          |
+| Displaying (In-order)    | O(n)                   | O(n)              |
+
+- n: Number of nodes in the Binary Search Tree.
+
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
